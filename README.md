@@ -25,7 +25,7 @@ se puede acceder a la api tirando el runserver y accediendo a localhost....
 /api/pets/#/detail
 /api/pets/#/delete
 
-Sólo el dueño puede realizar cambios
+Sólo el dueño puede acceder a la mascota y realizar cambios o borrar
 
 Tambien se puede acceder al registro mediante localhost....
 /register/
