@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+{% for pet in object_list %}
+  <div class="post-preview">
+    <a href="/pet/{{pet.slug}}/">
+      <h2 class="post-title">
+        {{ pet.name }}
+      </h2>
+      <h3 class="post-subtitle">
+        {{ pet.species }}
+      </h3>
+    </a>
+    <p class="post-meta">dueño es
+      <a href="#">{{ pet.owner }}</a>
+      y nacio {{ pet.birthday }}</p>
+  </div>
+  <hr>
+{% endfor %}
+
+
+
+</body>
+</html>
