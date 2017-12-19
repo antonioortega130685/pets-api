@@ -18,19 +18,4 @@ class Pet(models.Model):
     
     
 
-    '''
-    def getSpecies(self):
-        return self.species
-        
-    def getName(self):
-        return self.name
-
-    def getBirthday(self):
-        return self.birthday
-
-        
-
-
-
-
-'''
+    
